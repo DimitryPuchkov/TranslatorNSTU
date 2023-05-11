@@ -2,3 +2,6 @@ main
 switch
 int
 return
+break
+default
+case

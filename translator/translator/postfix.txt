@@ -1,0 +1,22 @@
+a 5 = 
+a 5 - 0 ==
+L0 CJ 
+c 1 = 
+B0 UJ 
+L0: a 5 - 2 ==
+L1 CJ 
+a 4 ==
+L2 CJ 
+c 0 = 
+B1 UJ 
+L2: a 3 ==
+L3 CJ 
+b 3 = 
+d b = 
+d 3 = 
+B1 UJ 
+L3: d 10 = 
+B1 UJ 
+B1: B0 UJ 
+L1: B0 UJ 
+B0: 0 

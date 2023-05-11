@@ -1,5 +1,16 @@
-int main()
-{
-int tmp=10;
-int tmp+=16;
+int main(){
+	int a=5;
+	int c;
+	switch(a-5){
+	case 0: a=1; break;
+	case 2: 
+		switch(a){
+			case 4: c=0; break;
+			case 3: int b=3; int d=b; c=3; break;
+			default: a=10; break;
+		} 
+		break;
+	default: break;
+	}
+	return 0;
 }
